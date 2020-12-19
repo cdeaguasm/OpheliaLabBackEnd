@@ -18,20 +18,7 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddCustomServices(this IServiceCollection services)
         {
             services.AddScoped(typeof(IAsyncRepository<>), typeof(Repository<>));
-            //services.AddScoped<ICountryService, CountryService>();
-            //services.AddScoped<IGroupService, GroupService>();
-            //services.AddScoped<ISeasonService, SeasonService>();
-            //services.AddScoped<ITypeOfCompetitionService, TypeOfCompetitionService>();
-            //services.AddScoped<IContinentService, ContinentService>();
-            //services.AddScoped<IMatchStatusService, MatchStatusService>();
-
-            //services.AddScoped<ICurrentUserService, CurrentUserService>();
-            //services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
-            //services.AddTransient<IEmailSender, EmailSender>();
-
-            //// Add memory cache services
-            //services.AddMemoryCache();
-
+            services.AddMemoryCache();
             return services;
         }
 
