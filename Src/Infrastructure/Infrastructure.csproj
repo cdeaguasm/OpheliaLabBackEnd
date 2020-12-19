@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>OpheliaLab.Infrastructure</AssemblyName>
+    <RootNamespace>OpheliaLab.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+</Project>
